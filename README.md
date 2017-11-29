@@ -1,6 +1,6 @@
 # vue_test
 
-> my first vue_test
+> my first vue_test 第一次尝试，结合网上各位大佬的模仿的，如有雷同求放过，谢谢
 
 ## Build Setup
 
