@@ -13,9 +13,9 @@
                     <i class="community icon-community"></i>
                 </router-link>
             </div>
-            <router-link tag="i" to="/setColor">
-                <i class="icon-theme"></i>
-            </router-link>
+            <!--<router-link tag="i" to="/setColor">-->
+                <!--<i class="icon-theme"></i>-->
+            <!--</router-link>-->
             <router-view></router-view>
             <!-- <Counter class="counter"></Counter> -->
         </div>
@@ -57,6 +57,9 @@
     }
     #headerComponent .header-warpper .centerMenu {
         font-size: 24px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
     }
     #headerComponent .header-warpper .centerMenu i {
         margin: 0 5px;

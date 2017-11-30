@@ -29,11 +29,13 @@
                     <sidelist iconclass="icon-friend" sidetitle="我的好友" ></sidelist>
                     <sidelist iconclass="icon-place" sidetitle="附近的人"></sidelist>
                     <split background="#f0f0f0" height="5" border="#eee"></split>
-                    <!--<router-link tag="div" to="./changeBg">-->
-                        <!--<sidelist iconclass="icon-theme" sidetitle="个性换肤" disc="官方蓝">-->
-                            <!--<router-view></router-view>-->
-                        <!--</sidelist>-->
-                    <!--</router-link>-->
+                    <router-link tag="div" to="./setColor">
+                        <div v-show="isReallShow" @click="hideMenu">
+                            <sidelist iconclass="icon-theme" sidetitle="个性换肤" disc="官方蓝">
+                                <router-view></router-view>
+                            </sidelist>
+                        </div>
+                    </router-link>
                     <sidelist iconclass="icon-set-time" sidetitle="定时播放"></sidelist>
                     <sidelist iconclass="icon-lock" sidetitle="音乐闹钟"></sidelist>
                     <sidelist iconclass="icon-car" sidetitle="驾驶模式"></sidelist>
